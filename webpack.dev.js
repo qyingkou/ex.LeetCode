@@ -75,7 +75,8 @@ module.exports = {
   ],
   resolve: {
     alias: {
-      "@util": path.resolve(__dirname, "tool/util.js"),
+      "@tool": path.resolve(__dirname, "tool/"),
+      "@mock": path.resolve(__dirname, "mock/"),
     },
   },
   stats: "errors-only",
